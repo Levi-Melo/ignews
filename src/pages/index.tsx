@@ -50,6 +50,6 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       product,
     },
-    revalidate: 60 * 60 * 24 * 30, //1 month
+    revalidate: 60 * 60 * 24, //24 month
   };
 };
